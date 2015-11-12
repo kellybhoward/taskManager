@@ -1,0 +1,15 @@
+*{
+    font-family: "Oxygen", sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+input[type="text"]:focus:not([readonly]), input[type="search"]:focus:not([readonly]){
+    border-bottom: 1px solid rgb(84, 73, 121) !important;
+    box-shadow: 0 1px 0 0 rgb(84, 73, 121) !important;
+}
+h4, h5{
+    text-decoration: underline;
+}
+select{
+    display: inline-flex !important;
+}
